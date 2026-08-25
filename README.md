@@ -1,4 +1,4 @@
-# Personal Website
+# SuleimanAahmed.github.io
 
 Academic site for Suleiman Ahmed — PhD researcher, Geotechnical Engineering, Concordia University.
 
