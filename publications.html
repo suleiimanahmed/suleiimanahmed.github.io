@@ -9,75 +9,79 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="site-nav">
-    <div class="wrap">
-      <a href="index.html" class="nav-name">Suleiman Ahmed</a>
-      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
-      <ul class="nav-links" style="list-style:none">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="avatar"><img src="assets/headshot.jpg" alt="Suleiman Ahmed" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" loading="lazy" /></div>
+    <div class="sidebar-block-text">
+      <p class="sidebar-name">Suleiman Ahmed</p>
+      <p class="sidebar-role">PhD Researcher<span class="sep">·</span>Geotechnical Engineering<span class="sep">·</span>Concordia University<span class="sep">·</span>THM Modelling of Permafrost</p>
+    </div>
+    <div class="sidebar-strata"><span></span><span></span><span></span><span></span><span></span></div>
+    <ul class="sidebar-links">
+      <li><a href="mailto:suleiman.ahmed@mail.concordia.ca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>Email</a></li>
+      <li><a href="https://www.linkedin.com/in/suleimanaliahmed/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.5 14.5 14.5 9.5"/><path d="M11 6.5 12.3 5.2a3.4 3.4 0 0 1 4.8 4.8L15.8 11.3"/><path d="M13 17.5 11.7 18.8a3.4 3.4 0 0 1-4.8-4.8L8.2 12.7"/></svg>LinkedIn</a></li>
+      <li><a href="https://github.com/SuleimanAahmed" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8.5 7 4 12l4.5 5"/><path d="M15.5 7 20 12l-4.5 5"/></svg>GitHub</a></li>
+      <li><a href="assets/Suleiman_Ahmed_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v11"/><path d="M7.5 11 12 15.5 16.5 11"/><path d="M4.5 18.5h15"/></svg>Download CV</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      &copy; 2026 Suleiman Ahmed<br/>
+      <a href="https://github.com/SuleimanAahmed/SuleimanAahmed.github.io" target="_blank" rel="noopener">Site source</a>
+    </div>
+  </aside>
+  <div class="main">
+    <nav class="top-nav">
+      <div class="inner">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
+        <a href="publications.html" class="active">Publications</a>
         <a href="projects.html">Projects</a>
         <a href="cv.html">CV</a>
         <a href="contact.html">Contact</a>
-      </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
-  <header class="page-hero wrap">
-    <p class="eyebrow">Publications</p>
-    <h1>Publications &amp; Presentations</h1>
-    <div class="strata"><span></span><span></span><span></span><span></span><span></span></div>
-  </header>
+    <header class="page-hero content">
+      <p class="eyebrow">Publications</p>
+      <h1>Publications &amp; Presentations</h1>
+    </header>
 
-  <section class="wrap">
-    <h2>Manuscript</h2>
-    <div class="pub">
-      <span class="kind">Manuscript — awaiting publication</span>
-      <div class="cite">Ahmed, S., &amp; Rovithis, E. (2024). <em>Numerical Analysis of Stone Columns Effect on the Seismic Response of Soils: The Case of the 4th Generation Technology Park in Thessaloniki.</em> Manuscript No. AGEO-D-15-05241.</div>
-    </div>
-  </section>
+    <section class="content">
+      <h2>Manuscript</h2>
+      <div class="pub">
+        <span class="kind">Manuscript — awaiting publication · Nov 2024</span>
+        <div>Ahmed, S., &amp; Rovithis, E. (2024). <em>Numerical Analysis of Stone Columns Effect on the Seismic Response of Soils: The Case of the 4th Generation Technology Park in Thessaloniki.</em></div>
+      </div>
+    </section>
 
-  <section class="wrap">
-    <h2>Conference Posters</h2>
-    <div class="pub">
-      <span class="kind">Poster · 2026</span>
-      <div class="cite">Ahmed, S., &amp; Li, B. (2026). <em>Pore-Water Salinity Effects on Seasonal Dynamics of Active Layer and Permafrost at Norman Wells, Northwest Territories, Canada, Using a Thermo-Hydro-Mechanical Model.</em> GeoQu&eacute;bec 2026 — 79th Canadian Geotechnical Conference, Qu&eacute;bec City, QC.</div>
-    </div>
-    <div class="pub">
-      <span class="kind">Poster · 2026</span>
-      <div class="cite">Ahmed, S., Li, B., Vadiee, S., Khaksar, K., Norouzi, E., &amp; Wang, L.L. (2026). <em>Transforming Built and Urban Microclimates: Geothermal Energy in Cold Regions.</em> DBMC 2026 — 17th International Conference on the Durability of Building Materials and Components, Montreal, QC.</div>
-    </div>
-    <div class="pub">
-      <span class="kind">Poster · 2026</span>
-      <div class="cite">Ahmed, S., Li, B., Vadiee, S., Khaksar, K., Norouzi, E., &amp; Wang, L.L. (2026). <em>Transforming Built and Urban Microclimates: Geothermal Energy in Cold Regions.</em> Electricity Society Summit, Concordia University, Montreal, QC.</div>
-    </div>
-  </section>
+    <section class="content">
+      <h2>Conference Posters</h2>
+      <div class="pub">
+        <span class="kind">Poster · Sept 2026</span>
+        <div>Ahmed, S., &amp; Li, B. (2026). <em>Pore-Water Salinity Effects on Seasonal Dynamics of Active Layer and Permafrost at Norman Wells, NWT, Canada, Using a Thermo-Hydro-Mechanical Model.</em> GeoQu&eacute;bec 2026 — 79th Canadian Geotechnical Conference, Qu&eacute;bec City.</div>
+      </div>
+      <div class="pub">
+        <span class="kind">Poster · July 2026</span>
+        <div>Ahmed, S., Li, B., Vadiee, S., Khaksar, K., Norouzi, E., &amp; Wang, L.L. (2026). <em>Transforming Built and Urban Microclimates: Geothermal Energy in Cold Regions.</em> DBMC 2026 — 17th International Conference on the Durability of Building Materials and Components, Montreal, July 20&ndash;24.</div>
+      </div>
+      <div class="pub">
+        <span class="kind">Poster · May 2026</span>
+        <div>Ahmed, S., Li, B., Vadiee, S., Khaksar, K., Norouzi, E., &amp; Wang, L.L. (2026). <em>Transforming Built and Urban Microclimates: Geothermal Energy in Cold Regions.</em> Volt-Age Electricity Society Summit.</div>
+      </div>
+    </section>
 
-  <section class="wrap">
-    <h2>Thesis</h2>
-    <div class="pub">
-      <span class="kind">M.Eng. Thesis · 2024</span>
-      <div class="cite">Ahmed, S. (2024). <em>Non-linear Numerical Analysis of Stone Columns Effect on the Seismic Response of Soils: The Case of the 4th Generation Technology Park in Thessaloniki.</em> Democritus University of Thrace. Supervisor: Dr. Emmanouil Rovithis.</div>
-    </div>
-    <p class="note">Source records list this thesis under two different institutions/degree levels (M.Eng., Democritus University of Thrace vs. undergraduate thesis, Aristotle University of Thessaloniki). Confirm the correct attribution against the official transcript before this page goes live — a mismatch here is a credibility risk on an academic site.</p>
-  </section>
+    <section class="content">
+      <h2>Invited Presentations</h2>
+      <div class="pub">
+        <span class="kind">Course presentation · 2024</span>
+        <div>&ldquo;Applications of the Finite Element Method in Geotechnical Engineering: Numerical Analysis of Slope Stability and Shield Tunnelling.&rdquo; Embankments and Earth Dams, Democritus University of Thrace.</div>
+      </div>
+    </section>
 
-  <section class="wrap">
-    <h2>Invited Presentations</h2>
-    <div class="pub">
-      <span class="kind">Course presentation · 2024</span>
-      <div class="cite">&ldquo;Applications of the Finite Element Method in Geotechnical Engineering: Numerical Analysis of Slope Stability and Shield Tunnelling.&rdquo; Embankments and Earth Dams, Democritus University of Thrace.</div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="wrap">
-      <span>&copy; 2026 Suleiman Ahmed — Concordia University</span>
-      <span>Built with static HTML/CSS · <a href="https://github.com/SuleimanAahmed/SuleimanAahmed.github.io" class="text-link">Source</a></span>
-    </div>
-  </footer>
-<script src="script.js"></script>
+    <footer class="page-footer">
+      <div class="content">Built with static HTML/CSS.</div>
+    </footer>
+  </div>
+</div>
 </body>
 </html>

@@ -9,93 +9,157 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="site-nav">
-    <div class="wrap">
-      <a href="index.html" class="nav-name">Suleiman Ahmed</a>
-      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
-      <ul class="nav-links" style="list-style:none">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="avatar"><img src="assets/headshot.jpg" alt="Suleiman Ahmed" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" loading="lazy" /></div>
+    <div class="sidebar-block-text">
+      <p class="sidebar-name">Suleiman Ahmed</p>
+      <p class="sidebar-role">PhD Researcher<span class="sep">·</span>Geotechnical Engineering<span class="sep">·</span>Concordia University<span class="sep">·</span>THM Modelling of Permafrost</p>
+    </div>
+    <div class="sidebar-strata"><span></span><span></span><span></span><span></span><span></span></div>
+    <ul class="sidebar-links">
+      <li><a href="mailto:suleiman.ahmed@mail.concordia.ca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>Email</a></li>
+      <li><a href="https://www.linkedin.com/in/suleimanaliahmed/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.5 14.5 14.5 9.5"/><path d="M11 6.5 12.3 5.2a3.4 3.4 0 0 1 4.8 4.8L15.8 11.3"/><path d="M13 17.5 11.7 18.8a3.4 3.4 0 0 1-4.8-4.8L8.2 12.7"/></svg>LinkedIn</a></li>
+      <li><a href="https://github.com/SuleimanAahmed" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8.5 7 4 12l4.5 5"/><path d="M15.5 7 20 12l-4.5 5"/></svg>GitHub</a></li>
+      <li><a href="assets/Suleiman_Ahmed_CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v11"/><path d="M7.5 11 12 15.5 16.5 11"/><path d="M4.5 18.5h15"/></svg>Download CV</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      &copy; 2026 Suleiman Ahmed<br/>
+      <a href="https://github.com/SuleimanAahmed/SuleimanAahmed.github.io" target="_blank" rel="noopener">Site source</a>
+    </div>
+  </aside>
+  <div class="main">
+    <nav class="top-nav">
+      <div class="inner">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a href="about.html" class="active">About</a>
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
         <a href="projects.html">Projects</a>
         <a href="cv.html">CV</a>
         <a href="contact.html">Contact</a>
-      </ul>
-    </div>
-  </nav>
-
-  <header class="page-hero wrap">
-    <p class="eyebrow">About</p>
-    <h1>Background</h1>
-    <p class="lede">Geotechnical engineer and PhD student applying finite element and multiphysics methods to cold-region ground problems, with prior field and site-engineering experience in Greece and Kenya.</p>
-    <div class="strata"><span></span><span></span><span></span><span></span><span></span></div>
-  </header>
-
-  <section class="wrap">
-    <h2>Biography</h2>
-    <p>Suleiman Ahmed is a PhD student in Civil Engineering (Geotechnical Engineering) at Concordia University, working within the Energy and Environmental Geomechanics Group under Dr. Biao Li. His research applies thermo-hydro-mechanical (THM) numerical modelling to permafrost degradation and its consequences for ground stability and infrastructure performance in cold regions, using the open-source multiphysics platform OpenGeoSys.</p>
-    <p>He holds an M.Eng. in Civil Engineering from the Democritus University of Thrace, Greece, where his thesis examined the effect of stone columns on the seismic response of soils, supervised by Dr. Emmanouil Rovithis. Before returning to research, he worked as a site and civil engineer on construction projects in Greece and Kenya, and has volunteered extensively with student and community organizations in both countries.</p>
-  </section>
-
-  <section class="wrap">
-    <h2>Education</h2>
-    <div class="entry">
-      <div class="entry-head">
-        <h3>Ph.D., Civil Engineering — Geotechnical Engineering</h3>
-        <span class="entry-date">Sept 2025 – Present</span>
       </div>
-      <p class="entry-sub">Concordia University, Canada — Advisor: Dr. Biao Li</p>
-    </div>
-    <div class="entry">
-      <div class="entry-head">
-        <h3>M.Eng., Civil Engineering</h3>
-        <span class="entry-date">Nov 2019 – Dec 2024</span>
+    </nav>
+
+    <header class="page-hero content">
+      <p class="eyebrow">About</p>
+      <h1>Background</h1>
+      <p class="lede">Geotechnical engineer and PhD student applying finite element and multiphysics methods to cold-region ground problems, with prior field and site-engineering experience in Greece and Kenya.</p>
+    </header>
+
+    <section class="content">
+      <h2>Biography</h2>
+      <p>Suleiman Ahmed is a PhD student in Civil Engineering (Geotechnical Engineering) at Concordia University, working within the Energy and Environmental Geomechanics Group under Dr. Biao Li. His research applies thermo-hydro-mechanical (THM) numerical modelling to permafrost degradation and its consequences for ground stability and infrastructure performance in cold regions, using the open-source multiphysics platform OpenGeoSys.</p>
+      <p>He holds an M.Eng. in Civil Engineering from the Democritus University of Thrace, Greece, where his thesis examined the effect of stone columns on the seismic response of soils, supervised by Dr. Emmanouil Rovithis. Before returning to research, he worked as a site and civil engineer on construction projects in Greece and Kenya, and has volunteered extensively with student and community organizations in both countries.</p>
+    </section>
+
+    <section class="content">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Ph.D., Civil Engineering — Geotechnical Engineering</h3><span class="entry-date">Sept 2025 – Present</span></div>
+        <p class="entry-sub">Concordia University, Canada — Advisor: Dr. Biao Li</p>
       </div>
-      <p class="entry-sub">Democritus University of Thrace, Greece — Advisor: Dr. Emmanouil Rovithis</p>
-      <p>Thesis: <em>Non-linear numerical analysis of stone columns effect on the seismic response of soils: the case of the 4th generation technology park in Thessaloniki.</em></p>
-    </div>
-  </section>
+      <div class="entry">
+        <div class="entry-head"><h3>M.Eng., Civil Engineering</h3><span class="entry-date">Nov 2019 – Dec 2024</span></div>
+        <p class="entry-sub">Democritus University of Thrace, Greece — Advisor: Dr. Emmanouil Rovithis</p>
+        <p>Thesis: <em>Non-linear numerical analysis of stone columns effect on the seismic response of soils: the case of the 4th generation technology park in Thessaloniki.</em></p>
+      </div>
+    </section>
 
-  <section class="wrap">
-    <h2>Funding &amp; Awards</h2>
-    <div class="entry">
-      <div class="entry-head"><h3>Concordia Conference and Exposition Award</h3><span class="entry-date">2026</span></div>
-      <p>$750 — conference presentation and travel support.</p>
-    </div>
-    <div class="entry">
-      <div class="entry-head"><h3>Gina Cody School Conference Travel Support Award</h3><span class="entry-date">2026</span></div>
-      <p>$500 — Gina Cody School of Engineering and Computer Science, Concordia University.</p>
-    </div>
-    <div class="entry">
-      <div class="entry-head"><h3>Volt-Age Doctoral Fellowship</h3><span class="entry-date">2025 – Present</span></div>
-      <p>Multi-year doctoral research fellowship, Concordia University.</p>
-    </div>
-    <div class="entry">
-      <div class="entry-head"><h3>Concordia University International Tuition Award of Excellence</h3><span class="entry-date">2025</span></div>
-    </div>
-    <div class="entry">
-      <div class="entry-head"><h3>Hellenic Government Scholarship</h3><span class="entry-date">Nov 2018 – Dec 2024</span></div>
-      <p>Merit-based.</p>
-    </div>
-  </section>
+    <section class="content">
+      <h2>Teaching Experience</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Teaching Assistant &amp; Marker, Geology for Civil Engineers</h3><span class="entry-date">Fall 2025, Fall 2026</span></div>
+        <p class="entry-sub">Concordia University — Instructor: Dr. Biao Li</p>
+        <ul><li>Lead tutorial sessions and grade assignments, quizzes, and exams against set rubrics, providing consistent feedback to undergraduate students.</li></ul>
+      </div>
+    </section>
 
-  <section class="wrap">
-    <h2>Professional Affiliations</h2>
-    <div class="affiliation-row">
-      <span>CSCE — Member #5952</span>
-      <span>ASCE — Member #12580115</span>
-      <span>Technical Chamber of Greece — Licensed Engineer #168003</span>
-      <span>Engineers Board of Kenya — application in review</span>
-    </div>
-  </section>
+    <section class="content">
+      <h2>Professional Experience</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Civil Engineer, Hellas Constructions</h3><span class="entry-date">May 2025 – Aug 2025</span></div>
+        <p class="entry-sub">Athens, Greece</p>
+        <ul><li>Supervised on-site activities and coordinated contractors/design teams; conducted geotechnical site investigations and foundation monitoring using AutoCAD, DEEPSOIL, and Google Earth.</li></ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Site Civil Engineer, Sigma Construction</h3><span class="entry-date">Jan 2025 – Apr 2025</span></div>
+        <p class="entry-sub">Nairobi, Kenya</p>
+        <ul><li>Reviewed ETABS models for a 14-storey RC building against Eurocodes 1, 2, and 7; resolved foundation and reinforcement-detailing conflicts to reduce rework.</li></ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Engineering Intern, Technical Office, Ouzounidou</h3><span class="entry-date">Jul 2023 – Aug 2023</span></div>
+        <p class="entry-sub">Xanthi, Greece — Supervisor: Anthoula Ouzounidou</p>
+        <ul><li>Prepared and reviewed engineering drawings (AutoCAD) for design compliance on active building projects.</li></ul>
+      </div>
+    </section>
 
-  <footer>
-    <div class="wrap">
-      <span>&copy; 2026 Suleiman Ahmed — Concordia University</span>
-      <span>Built with static HTML/CSS · <a href="https://github.com/SuleimanAahmed/SuleimanAahmed.github.io" class="text-link">Source</a></span>
-    </div>
-  </footer>
-<script src="script.js"></script>
+    <section class="content">
+      <h2>Funding &amp; Awards</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Concordia Conference and Exposition Award</h3><span class="entry-date">2026</span></div>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Gina Cody School Conference Travel Support Award</h3><span class="entry-date">2026</span></div>
+        <p>Gina Cody School of Engineering and Computer Science, Concordia University.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Volt-Age Doctoral Fellowship</h3><span class="entry-date">Sept 2025 – Present</span></div>
+        <p>Multi-year doctoral research fellowship, Concordia University.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Concordia University International Tuition Award of Excellence</h3><span class="entry-date">Sept 2025 – Present</span></div>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Greek Government Scholarship</h3><span class="entry-date">Nov 2018 – Dec 2024</span></div>
+        <p>Merit-based.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <h2>Professional Affiliations</h2>
+      <div class="affiliation-row">
+        <span>Canadian Society for Civil Engineering (CSCE) — Member</span>
+        <span>American Society of Civil Engineers (ASCE) — Member</span>
+        <span>Technical Chamber of Greece (TCG) — Licensed Civil Engineer, Member</span>
+        <span>Engineers Board of Kenya (EBK) — Application Under Review</span>
+      </div>
+    </section>
+
+    <section class="content">
+      <h2>Leadership &amp; Community Engagement</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Volunteer, Volt-Age Summit</h3><span class="entry-date">May 2026</span></div>
+        <p class="entry-sub">Concordia University</p>
+        <p>Supported technical/organizational coordination and participant engagement.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Volunteer, Open House Day</h3><span class="entry-date">Feb 2024</span></div>
+        <p class="entry-sub">Dept. of Civil Engineering, Democritus University of Thrace</p>
+        <p>Guided prospective students and visitors.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Founding Member, Young Stars Charity Organization</h3><span class="entry-date">2021 – Present</span></div>
+        <p>Coordinate mentorship, fundraising, and educational-resource distribution for underprivileged children in Kenya.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Volunteer Translator, Greek–English</h3><span class="entry-date">2020 – 2025</span></div>
+        <p>Provided translation support to international students and community members.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Member, STEM Voices in Kenya</h3><span class="entry-date">2020 – Present</span></div>
+        <p>Mentor students on international academic opportunities; guided two successful scholarship applications.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Chairperson, Kenyan Students in Greece</h3><span class="entry-date">2019 – 2023</span></div>
+        <p>Founded and led a ~40-member student organization; liaised between students, universities, and local institutions.</p>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="content">Built with static HTML/CSS.</div>
+    </footer>
+  </div>
+</div>
 </body>
 </html>
