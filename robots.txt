@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suleiimanahmed.github.io/sitemap.xml
