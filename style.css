@@ -1,4 +1,3 @@
-
 :root{--bg:#f3f7fa;--fg:#0c1a28;--mut:#4d6074;--line:rgba(12,26,40,.11);--card:rgba(255,255,255,.78);--accent:#0b7f8a;--g1:#0284c7;--g2:#0d9488;--glow1:rgba(2,132,199,.13);--glow2:rgba(13,148,136,.12);--sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--r:22px;--ease:cubic-bezier(.16,1,.3,1);color-scheme:light}
 html[data-theme=dark]{--bg:#07101a;--fg:#e9f1f7;--mut:#93a8ba;--line:rgba(255,255,255,.09);--card:rgba(255,255,255,.04);--accent:#4fd1c5;--g1:#38bdf8;--g2:#2dd4bf;--glow1:rgba(56,189,248,.14);--glow2:rgba(45,212,191,.10);color-scheme:dark}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}
@@ -69,7 +68,10 @@ h1{font-size:clamp(2.6rem,1.2rem + 5.6vw,5.4rem);line-height:1;letter-spacing:-.
 .themes li>*{position:relative}.themes span{font-weight:700;font-size:.8rem;color:var(--accent)}.themes h2{font-size:1.2rem;margin:10px 0 8px}.themes p{margin:0;font-size:.95rem}
 .h2{font-size:clamp(1.6rem,1.2rem + 1.6vw,2.4rem);margin-bottom:22px}
 .tools-g{list-style:none;margin:0 0 14px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
-.tool{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--card);font-size:.92rem;font-weight:550}
+.tool{display:flex;align-items:center;gap:12px;padding:0;border:1px solid var(--line);border-radius:16px;background:var(--card);font-size:.92rem;font-weight:550}
+.tl{display:flex;align-items:center;gap:12px;width:100%;height:100%;padding:12px 14px;border-radius:16px;color:inherit;text-decoration:none}
+.tl .ic{margin-left:auto;color:var(--mut);opacity:.6;transition:transform .4s var(--ease),opacity .3s}
+.tool:hover .tl .ic{opacity:1;transform:translate3d(2px,-2px,0)}
 .lg{position:relative;flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#fff;border:1px solid rgba(0,0,0,.08);overflow:hidden}
 .lg b{font:700 .78rem var(--sans);color:#4a5568;letter-spacing:.02em}.lg img{position:absolute;inset:7px;width:28px;height:28px;object-fit:contain;background:#fff}.lg.org{width:48px;height:48px;border-radius:14px}.lg.org img{inset:8px;width:32px;height:32px}
 .lg.mono{background:linear-gradient(135deg,var(--g1),var(--g2));border-color:transparent}.lg.mono b{color:#fff;font-size:.8rem}
