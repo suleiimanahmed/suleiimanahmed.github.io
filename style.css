@@ -28,6 +28,7 @@ a{color:inherit}img,svg{max-width:100%}p{margin:0 0 1em;color:var(--mut)}h1,h2,h
 .soc a,.icon-btn{position:relative;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer;transition:transform .4s var(--ease),background-color .3s,color .3s,border-color .3s}
 .soc a:hover,.icon-btn:hover{color:#fff;background:linear-gradient(135deg,var(--g1),var(--g2));border-color:transparent;transform:translate3d(0,-3px,0)}
 .icon-btn svg{transition:transform .6s var(--ease)}.icon-btn:hover svg{transform:rotate(25deg)}
+.menu-btn .ic{width:22px;height:22px}.menu-btn:hover svg{transform:none}
 .mini a{border-color:transparent;background:none;width:40px;height:40px}
 [data-tip]::after{content:attr(data-tip);position:absolute;top:calc(100% + 8px);left:50%;translate:-50% 0;padding:3px 9px;border-radius:7px;background:var(--fg);color:var(--bg);font:500 .72rem var(--sans);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s}
 [data-tip]:hover::after,[data-tip]:focus-visible::after{opacity:1}.footer [data-tip]::after{top:auto;bottom:calc(100% + 8px)}
@@ -79,7 +80,6 @@ h1{font-size:clamp(2.6rem,1.2rem + 5.6vw,5.4rem);line-height:1;letter-spacing:-.
 .projs{display:grid;gap:clamp(20px,3vw,34px)}
 .proj{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(20px,3.5vw,48px);align-items:center;padding:clamp(14px,2vw,22px);border:1px solid var(--line);border-radius:30px;background:var(--card)}.proj.rev figure{order:2}
 .proj figure{margin:0;border-radius:20px;overflow:hidden;position:relative}.proj img{width:100%;height:auto;display:block}
-.proj figcaption{position:absolute;left:12px;bottom:12px;padding:4px 11px;border-radius:999px;background:rgba(7,16,26,.68);color:#dfe9f1;font:500 .7rem var(--sans)}
 .pb{padding:clamp(4px,1.5vw,18px)}.pst{font:700 .74rem var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}.proj h2{font-size:clamp(1.5rem,1.1rem + 1.4vw,2.2rem);margin-bottom:14px}
 .role{font-size:.93rem;margin-bottom:.5em}.role b{display:block;color:var(--fg);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
 .more{display:inline-flex;align-items:center;gap:8px;margin-top:10px;font-weight:600;font-size:.92rem;text-decoration:none;color:var(--accent)}.more .ic{transition:transform .4s var(--ease)}.more:hover .ic{transform:translate3d(6px,0,0)}
@@ -108,7 +108,6 @@ h1{font-size:clamp(2.6rem,1.2rem + 5.6vw,5.4rem);line-height:1;letter-spacing:-.
 .contact{padding:clamp(26px,5vw,56px);border-radius:32px;border:1px solid var(--line);background:linear-gradient(135deg,var(--glow1),var(--glow2)),var(--card)}.contact p:not(.big):not(.note){max-width:60ch}.note{font-size:.88rem}
 .footer{margin-top:clamp(30px,5vw,60px);border-top:1px solid var(--line);padding:24px 0}.foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.footer p{margin:0;font-size:.88rem}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[hidden]{display:none!important}
-/* scroll reveal: opacity + translate only, GPU friendly */
 .js .reveal,.js .stag>*{opacity:0;transform:translate3d(0,22px,0);transition:opacity .9s var(--ease),transform 1s var(--ease);transition-delay:var(--d,0s);will-change:opacity,transform}
 .js .reveal.in,.js .stag>*.in{opacity:1;transform:none;will-change:auto}
 .js .reveal.in,.js .stag>.in{transition-delay:var(--d,0s)}
