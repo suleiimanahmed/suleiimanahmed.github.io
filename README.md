@@ -1,55 +1,31 @@
 # Suleiman Ahmed
 
-Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering at Concordia University, Montréal. The site covers research on permafrost and thermo-hydro-mechanical (THM) modelling, geothermal energy and seismic soil response.
+Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering at Concordia University, Montréal. Research on permafrost and thermo-hydro-mechanical (THM) modelling, geothermal energy and seismic soil response.
 
 **Live site:** https://suleiimanahmed.github.io/
 
 ## Pages
-
-| Page | Content |
-|---|---|
-| Home | Welcome, focus areas, links to every section |
-| About | Biography, awards, community, professional bodies |
-| Research | Research themes, software tools, skills |
-| Projects | Three projects with illustrations |
-| Publications | Papers, thesis, manuscript, presentations (filterable) |
-| Resources | Machine-learning notes: Git, GNN and PyG, MPC |
-| Experience | Research, professional and teaching roles, education |
-| Contact | Email, LinkedIn, GitHub |
+index (welcome), about, research (tools and skills), projects, publications, resources, experience, contact. cv.html redirects to experience.html.
 
 ## Features
-
-- Dark and light themes, saved in the browser and defaulting to the system setting
-- Responsive layout with a mobile menu
-- Scroll-triggered animations that switch off when the visitor prefers reduced motion
+- Light and dark themes that follow the device setting
+- Responsive layout with a three-line mobile menu
+- Scroll-triggered animations, switched off for visitors who prefer reduced motion
 - Publication filter by type
-- Email address assembled in JavaScript after a real click, to reduce scraping
-- No frameworks, no build step, no tracking
+- Email address assembled in JavaScript after a real click
 
+## Run locally
+```bash
+python -m http.server 8000
+```
+Open http://localhost:8000/.
 
-## Project structure
-index.html, about.html, research.html, projects.html,
-publications.html, resources.html, experience.html, contact.html
-style.css Styles and themes
-site.js Theme toggle, menu, animations, filter, email button
-assets/ Project illustrations (SVG)
-favicon.svg, robots.txt, sitemap.xml, 404.html
+## Deploy
+The repository must be named `suleiimanahmed.github.io`. In Settings > Pages, deploy from the `main` branch, root folder.
 
-text
+## Assets
+`assets/` holds three project illustrations (SVG). To show the OpenGeoSys logo, save it as `assets/opengeosys.png`.
 
-## Editing
-
-- Edit the HTML file for the page you want to change.
-- Keep the navigation identical on every page.
-- Add new pages to `sitemap.xml`.
-- To replace a tool's initials with an official logo, save the file in `assets/` and update the tool list in `research.html`.
-
-## Credits and trademarks
-
-Software names and logos belong to their owners. They show tools I use and do not imply endorsement.
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/suleimanaliahmed) · [GitHub](https://github.com/suleiimanahmed)
+Software names and logos belong to their owners and show tools I use, not endorsement.
 
 © 2026 Suleiman Ahmed. All rights reserved.
