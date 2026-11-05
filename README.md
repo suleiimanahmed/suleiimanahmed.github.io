@@ -26,23 +26,6 @@ Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering
 - Email address assembled in JavaScript after a real click, to reduce scraping
 - No frameworks, no build step, no tracking
 
-## Tech
-
-Plain HTML, CSS and JavaScript. Logos load from [Simple Icons](https://simpleicons.org/) where available. Universities and professional bodies use their own site icon.
-
-## Run locally
-
-```bash
-git clone [https://github.com/suleiimanahmed/suleiimanahmed.github.io.git](https://github.com/suleiimanahmed/suleiimanahmed.github.io.git)
-cd suleiimanahmed.github.io
-python -m http.server 8000
-```
-
-Open http://localhost:8000/.
-
-## Deploy
-
-The repository must be named `suleiimanahmed.github.io`. In **Settings → Pages**, deploy from the `main` branch, root folder. Every push to `main` republishes the site.
 
 ## Project structure
 index.html, about.html, research.html, projects.html,
