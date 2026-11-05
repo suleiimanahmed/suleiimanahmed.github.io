@@ -1,6 +1,14 @@
 (function(){var d=document,r=d.documentElement,rm=matchMedia('(prefers-reduced-motion: reduce)').matches;r.classList.add('js');
-function st(t){r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}var b=d.getElementById('theme-toggle');if(b)b.setAttribute('aria-label',t==='dark'?'Switch to light mode':'Switch to dark mode');var m=d.querySelector('meta[name=theme-color]');if(m)m.content=t==='dark'?'#07101a':'#f3f7fa'}
-var tb=d.getElementById('theme-toggle');if(tb){st(r.getAttribute('data-theme')||'dark');tb.addEventListener('click',function(){st(r.getAttribute('data-theme')==='dark'?'light':'dark')})}
+/* theme: follows the device; the toggle overrides it for this browser session only */
+var mq=matchMedia('(prefers-color-scheme: dark)');
+try{localStorage.removeItem('theme')}catch(e){}
+function sys(){return mq.matches?'dark':'light'}
+function pick(){var o=null;try{o=sessionStorage.getItem('theme')}catch(e){}return o||sys()}
+function st(t){r.setAttribute('data-theme',t);var b=d.getElementById('theme-toggle');if(b)b.setAttribute('aria-label',t==='dark'?'Switch to light mode':'Switch to dark mode');var m=d.querySelector('meta[name=theme-color]');if(m)m.content=t==='dark'?'#07101a':'#f3f7fa'}
+st(pick());
+function onSys(){try{sessionStorage.removeItem('theme')}catch(e){}st(sys())}
+if(mq.addEventListener)mq.addEventListener('change',onSys);else if(mq.addListener)mq.addListener(onSys);
+var tb=d.getElementById('theme-toggle');if(tb){tb.addEventListener('click',function(){var n=r.getAttribute('data-theme')==='dark'?'light':'dark';try{sessionStorage.setItem('theme',n)}catch(e){}st(n)})}
 var nav=d.getElementById('site-nav'),mb=d.getElementById('menu-btn');
 function cm(){if(nav&&nav.classList.contains('open')){nav.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.setAttribute('aria-label','Open menu')}}
 if(mb)mb.addEventListener('click',function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',String(o));mb.setAttribute('aria-label',o?'Close menu':'Open menu')});
