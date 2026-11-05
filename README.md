@@ -2,11 +2,14 @@
 
 This repository contains the source code for my personal website, built as a lightweight static site and hosted on GitHub Pages.
 
-Live site: https://suleiimanahmed.github.io/
+**Live site:** [suleiimanahmed.github.io](https://suleiimanahmed.github.io/)
+
+![Website preview](assets/og-image.png)
 
 ## Overview
 
-This site includes pages for:
+The site includes pages for:
+
 - Home
 - About
 - Research
@@ -20,65 +23,65 @@ Each page ends with compact Previous / Next navigation links for easier browsing
 
 ## Features
 
-- Light and dark theme support that follows the device default
+- Light and dark themes that follow the device preference
 - Session-based theme override using the sun/moon toggle
-- Publication filtering, citation copy buttons, and BibTeX download
+- Publication filtering, citation-copy buttons, and BibTeX download
 - Resource filtering by type
-- Email address protection using a human verification step to avoid bot harvesting
+- Email address protection using a human-verification step
 - Responsive layout with a mobile menu
 - Back-to-top button
-- Scroll animations that automatically disable when reduced motion is preferred
-- Search and sharing metadata, including Open Graph, Twitter Card, schema.org data, sitemap, web manifest, and app icons
-- No frameworks and no build step required
+- Scroll animations that respect reduced-motion preferences
+- Search and sharing metadata, including Open Graph, Twitter Cards, schema.org data, a sitemap, web manifest, and app icons
+- No frameworks or build step required
 
 ## Running locally
+
+You’ll need Git and Python 3 to run the site locally.
 
 ```bash
 git clone https://github.com/suleiimanahmed/suleiimanahmed.github.io.git
 cd suleiimanahmed.github.io
-python -m http.server 8000
+python3 -m http.server 8000
 ```
 
-Then open:
-
-```text
-http://localhost:8000/
-```
+Then open [http://localhost:8000/](http://localhost:8000/) in your browser.
 
 ## Deployment
 
-This repository must be named:
+This repository must be named `suleiimanahmed.github.io` to use that GitHub Pages URL.
 
-```text
-suleiimanahmed.github.io
-```
+To deploy:
 
-To deploy on GitHub Pages:
-
-1. Open the repository settings
-2. Go to Pages
-3. Set the source to the main branch
-4. Use the root folder as the publishing source
-5. Upload the full site contents together in each release to avoid mixing old and new files
+1. Open the repository settings and select **Pages**.
+2. Choose **Deploy from a branch**.
+3. Select the `main` branch and the root (`/`) folder.
+4. Save the settings and push your site files to `main`.
 
 ## Project structure
 
 ```text
-*.html              Pages
-style.css          Styles, themes, and print rules
-site.js            Theme logic, menu behavior, animations, filters, citations, and email checks
-assets/            Project illustrations, og-image.png, app icons, and optional opengeosys.png
-site.webmanifest   Web app manifest
-apple-touch-icon.png  App icon
-favicon.svg        Favicon
-robots.txt         Robots instructions
-sitemap.xml       Sitemap
-404.html           Not found page
+*.html                 Static pages
+style.css              Styles, themes, and print rules
+site.js                Theme, menu, animation, filter, citation, and email-check behavior
+assets/                Project illustrations, social preview image, and other assets
+site.webmanifest       Web app manifest
+apple-touch-icon.png   App icon
+favicon.svg            Favicon
+robots.txt             Robots instructions
+sitemap.xml            Sitemap
+404.html               Not found page
 ```
+
+## Customizing the site
+
+- Edit the HTML files in the repository root to update page content.
+- Edit `style.css` to change styles, themes, and print rules.
+- Edit `site.js` to update interactive behavior.
+- Add or replace images and icons in `assets/`.
 
 ## Notes
 
 - Software names and logos belong to their respective owners and are shown to indicate tools I use, not as endorsements.
 - This site is intentionally lightweight and framework-free.
 
-© 2026 Suleiman Ahmed. All rights reserved
+© 2026 Suleiman Ahmed. All rights reserved.
