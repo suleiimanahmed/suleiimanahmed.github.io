@@ -1,13 +1,13 @@
 # Suleiman Ahmed
 
-Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering at Concordia University, Montréal. The site covers research on permafrost and thermo-hydro-mechanical (THM) modelling, geothermal energy and seismic soil response.
+This is the personal website of Suleiman Ahmed
 
 **Live site:** https://suleiimanahmed.github.io/
 
 ## Pages
 Home, About, Research, Projects, Publications, Resources, Experience, Contact. Each page ends with compact Previous / Next links.
 
-## Features
+## Site features
 - Light and dark themes that follow the device; the sun/moon button overrides it for the session
 - Publication filter, copy-citation buttons and a BibTeX download
 - Resource links filterable by type
@@ -37,11 +37,6 @@ site.js              theme, menu, animations, filters, citations, email check
 assets/              project illustrations, og-image.png, app icons, optional opengeosys.png
 site.webmanifest, apple-touch-icon.png, favicon.svg, robots.txt, sitemap.xml, 404.html
 ```
-
-## Editing
-- Keep the navigation and the Previous/Next order identical on every page.
-- Add new pages to `sitemap.xml`.
-- To show the OpenGeoSys logo, save it as `assets/opengeosys.png`.
 
 Software names and logos belong to their owners and show tools I use, not endorsement.
 
