@@ -24,7 +24,6 @@ Each page ends with compact Previous / Next navigation links for easier browsing
 - Session-based theme override using the sun/moon toggle
 - Publication filtering, citation copy buttons, and BibTeX download
 - Resource filtering by type
-- Print or save the Experience page as a PDF
 - Email address protection using a human verification step to avoid bot harvesting
 - Responsive layout with a mobile menu
 - Back-to-top button
