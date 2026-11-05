@@ -9,7 +9,6 @@ Home, About, Research, Projects, Publications, Resources, Experience, Contact. E
 
 ## Features
 - Light and dark themes that follow the device; the sun/moon button overrides it for the session
-- Site search (press `/` or use the magnifier) across pages, papers, projects, tools and resources
 - Publication filter, copy-citation buttons and a BibTeX download
 - Resource links filterable by type
 - Print or save the Experience page as a PDF
@@ -28,20 +27,20 @@ python -m http.server 8000
 Open http://localhost:8000/.
 
 ## Deploy
-The repository must be named `suleiimanahmed.github.io`. In Settings > Pages, deploy from the `main` branch, root folder. Always upload every file from the release together; a mix of old and new files breaks the layout.
+The repository must be named `suleiimanahmed.github.io`. In Settings > Pages, deploy from the `main` branch, root folder. Always upload every file from a release together; a mix of old and new files breaks the layout.
 
 ## Structure
 ```
 *.html               pages
 style.css            styles, themes, print rules
-site.js              theme, menu, search, animations, filters, citations, email check
+site.js              theme, menu, animations, filters, citations, email check
 assets/              project illustrations, og-image.png, app icons, optional opengeosys.png
 site.webmanifest, apple-touch-icon.png, favicon.svg, robots.txt, sitemap.xml, 404.html
 ```
 
 ## Editing
 - Keep the navigation and the Previous/Next order identical on every page.
-- Add new pages to `sitemap.xml` and to the search index at the top of `site.js`.
+- Add new pages to `sitemap.xml`.
 - To show the OpenGeoSys logo, save it as `assets/opengeosys.png`.
 
 Software names and logos belong to their owners and show tools I use, not endorsement.
