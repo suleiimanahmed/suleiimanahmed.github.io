@@ -1,6 +1,6 @@
 (function(){
 /* Message form: paste your Web3Forms access key below (see README). The key is not secret; it only routes messages to your inbox. */
-var FORM_KEY='PASTE-YOUR-WEB3FORMS-ACCESS-KEY';
+var FORM_KEY='532d7608-bb62-471f-ab34-9cdb6f444b3d';
 var d=document,r=d.documentElement,rm=matchMedia('(prefers-reduced-motion: reduce)').matches;r.classList.add('js');
 var mq=matchMedia('(prefers-color-scheme: dark)');
 try{localStorage.removeItem('theme')}catch(e){}
