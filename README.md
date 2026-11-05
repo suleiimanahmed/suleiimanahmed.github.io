@@ -1,10 +1,8 @@
-# Suleiman Ahmed
+# Suleiman Ahmed Personal Website
 
 This repository contains the source code for my personal website, built as a lightweight static site and hosted on GitHub Pages.
 
 **Live site:** [suleiimanahmed.github.io](https://suleiimanahmed.github.io/)
-
-![Website preview](assets/og-image.png)
 
 ## Overview
 
@@ -33,29 +31,6 @@ Each page ends with compact Previous / Next navigation links for easier browsing
 - Scroll animations that respect reduced-motion preferences
 - Search and sharing metadata, including Open Graph, Twitter Cards, schema.org data, a sitemap, web manifest, and app icons
 - No frameworks or build step required
-
-## Running locally
-
-You’ll need Git and Python 3 to run the site locally.
-
-```bash
-git clone https://github.com/suleiimanahmed/suleiimanahmed.github.io.git
-cd suleiimanahmed.github.io
-python3 -m http.server 8000
-```
-
-Then open [http://localhost:8000/](http://localhost:8000/) in your browser.
-
-## Deployment
-
-This repository must be named `suleiimanahmed.github.io` to use that GitHub Pages URL.
-
-To deploy:
-
-1. Open the repository settings and select **Pages**.
-2. Choose **Deploy from a branch**.
-3. Select the `main` branch and the root (`/`) folder.
-4. Save the settings and push your site files to `main`.
 
 ## Project structure
 
