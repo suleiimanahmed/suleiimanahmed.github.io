@@ -2,7 +2,7 @@
 
 Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering at Concordia University, Montréal.
 
-**Live site:** https://suleiimanahmed.github.io/
+**Live site:** https://suleimanahmedx.github.io/
 
 ## Features
 - Light and dark themes that follow the device; the sun/moon button overrides it for the session
