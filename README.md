@@ -4,9 +4,6 @@ Personal portfolio of Suleiman Ahmed, PhD researcher in geotechnical engineering
 
 **Live site:** https://suleiimanahmed.github.io/
 
-## Pages
-Home, About, Research, Projects, Publications, Resources, Experience, Contact. Each page ends with compact Previous / Next links.
-
 ## Features
 - Light and dark themes that follow the device; the sun/moon button overrides it for the session
 - Contact form: visitors write to me without ever seeing my email address
